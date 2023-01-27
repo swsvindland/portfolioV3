@@ -56,7 +56,7 @@ export const ContactForm: FC = () => {
                     </p>
                 </div>
                 <div className="mt-12">
-                    <form action="#" method="POST" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                    <form action="src/components#" method="POST" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                         <div>
                             <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
                                 First name
