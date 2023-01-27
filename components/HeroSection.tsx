@@ -1,21 +1,6 @@
-/*
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
 
 const navigation = [
@@ -35,7 +20,7 @@ export default function HeroSection() {
                     >
                         <div className="flex flex-1 items-center">
                             <div className="flex w-full items-center justify-between md:w-auto">
-                                <a href="#">
+                                <a href="components/hero#">
                                     <span className="sr-only">
                                         Your Company
                                     </span>
@@ -73,7 +58,7 @@ export default function HeroSection() {
                         </div>
                         <div className="hidden md:flex md:items-center md:space-x-6">
                             <a
-                                href="#"
+                                href="components/hero#"
                                 className="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700"
                             >
                                 Contact Me
@@ -130,7 +115,7 @@ export default function HeroSection() {
                                 </div>
                                 <div className="mt-6 px-5">
                                     <a
-                                        href="#"
+                                        href="components/hero#"
                                         className="block w-full rounded-md bg-indigo-600 py-3 px-4 text-center font-medium text-white shadow hover:bg-indigo-700"
                                     >
                                         Contact Me
@@ -164,7 +149,7 @@ export default function HeroSection() {
                                     </p>
                                     <div className="mt-10 sm:mt-12">
                                         <form
-                                            action="#"
+                                            action="components/hero#"
                                             className="sm:mx-auto sm:max-w-xl lg:mx-0"
                                         >
                                             <div className="sm:flex">
