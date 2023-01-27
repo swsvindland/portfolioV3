@@ -1,13 +1,13 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Image from 'next/image'
+import { Fragment } from 'react';
+import { Popover, Transition } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 const navigation = [
     { name: 'Projects', href: '/projects' },
     { name: 'Games', href: '/games' },
     { name: 'Experience', href: '/experience' },
-]
+];
 
 export default function HeroSection() {
     return (
@@ -197,5 +197,5 @@ export default function HeroSection() {
                 </div>
             </div>
         </>
-    )
+    );
 }

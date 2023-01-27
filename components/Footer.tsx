@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC } from 'react';
 
 const navigation = {
     solutions: [
@@ -88,7 +88,7 @@ const navigation = {
             ),
         },
     ],
-}
+};
 
 export const Footer: FC = () => {
     return (
@@ -228,10 +228,11 @@ export const Footer: FC = () => {
                         ))}
                     </div>
                     <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
-                        &copy; {new Date().getFullYear()} Samuel Svindland. All rights reserved.
+                        &copy; {new Date().getFullYear()} Samuel Svindland. All
+                        rights reserved.
                     </p>
                 </div>
             </div>
         </footer>
-    )
-}
+    );
+};
